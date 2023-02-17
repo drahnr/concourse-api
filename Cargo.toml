@@ -1,0 +1,20 @@
+[package]
+name = "concourse-api"
+version = "0.0.1"
+edition = "2021"
+license = "Apache-2.0 OR MIT"
+author = "Bernhard Schuster <bernhard@ahoi.io>"
+description = "Interact with the concourse ci component ATC as the shipped client `fly` does"
+categories = ["api-bindings", "web-programming::http-client"]
+keywords = ["concourse", "ci", "cd", "api", "concourse-ci"]
+repository = "https://github.com/drahnr/concourse-api.git"
+readme = "README.md"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+located_yaml = "0.2"
+indexmap = "1"
+voca_rs = "1"
+itertools = "0.10"
